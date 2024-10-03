@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario PDF</title>
+</head>
+<body>
+    <h1>Generar PDF desde un formulario</h1>
+    <form action="/generate-pdf" method="POST">
+        <label for="input1">Primer Input:</label>
+        <input type="text" id="input1" name="input1" required><br><br>
+        
+        <label for="input2">Segundo Input:</label>
+        <input type="text" id="input2" name="input2" required><br><br>
+        
+        <button type="submit">Generar PDF</button>
+    </form>
+</body>
+</html>
